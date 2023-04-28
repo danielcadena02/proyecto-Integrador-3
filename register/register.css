@@ -67,6 +67,14 @@
     color: #fff;
 }
 
+.label_light_gender {
+    color: #343a40;
+}
+
+.label_dark_gender {
+    color: #fff;
+}
+
 .p_light {
     color: #343a40;
 }
@@ -89,8 +97,18 @@
     background-color: #4d4d4d;
     color: #fff;
 }
-
-
+.form_select_dark {
+    border-radius: 0;
+    border: none;
+    background-color: #4d4d4d;
+    color: #fff;
+}
+.form_select {
+    border-radius: 0;
+    border: none;
+    background-color: #ffcccc;
+    color: #252525;
+}
 
 .btn-primary {
     background-color: #ff4d4d;
@@ -104,4 +122,10 @@
 
 a {
     color: #ff4d4d;
+}
+
+.foto_perfil{
+    border: solid 1px #ff4d4d;
+    width : 200px;
+
 }
