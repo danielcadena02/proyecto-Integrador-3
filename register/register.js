@@ -9,6 +9,9 @@ const nick = document.getElementById("label_apodo_light");
 const nickform = document.getElementById("nickform");
 const genero = document.getElementById ("label_genero");
 const labelfoto = document.getElementById("label_foto");
+const select_tipo_usuario = document.getElementById("select_tipo_usuario");
+const label_tipo_usuario = document.getElementById("label_tipo_usuario");
+
 
 function miFunc() {
 
@@ -27,6 +30,10 @@ function miFunc() {
     const selectgenero = document.getElementById("select_genero_light");
     const labelfoto = document.getElementById("label_foto");
 
+    const select_tipo_usuario = document.getElementById("select_tipo_usuario");
+    const label_tipo_usuario = document.getElementById("label_tipo_usuario");
+
+
     if (element.className == "body_negro") {
         element.className = "body_color";
         card.className = "card";
@@ -42,6 +49,9 @@ function miFunc() {
         genero.className = "label_light_gender ml-3 mt-2 mb-2";
         selectgenero.className = "form_select_ligh ml-3 mt-2 mb-2";
         labelfoto.className = "label_light_gender ml-3 mt-2 mb-2";
+
+        select_tipo_usuario.className = "label_light_gender ml-3 mt-2 mb-2";
+        label_tipo_usuario.className = "form_select_ligh ml-3 mt-2 mb-2";
         
     
 
@@ -60,6 +70,9 @@ function miFunc() {
         genero.className = "label_dark_gender ml-3 mt-2 mb-2";
         selectgenero.className = "form_select_dark ml-3 mt-2 mb-2";
         labelfoto.className = "label_dark_gender ml-3 mt-2 mb-2";
+
+        select_tipo_usuario.className = "label_dark_gender ml-3 mt-2 mb-2";
+        seleclabel_tipo_usuariotgenero.className = "form_select_dark ml-3 mt-2 mb-2";
 
     }
 
