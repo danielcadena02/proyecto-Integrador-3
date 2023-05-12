@@ -43,6 +43,13 @@
     z-index: 1;
 }
 
+.bg-ruby{
+    background-color: #ff4d4d;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
 h2, h4{
     font-size:large;
 }

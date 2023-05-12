@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <title>register</title>
+    <title>Perfil de Usuario</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="perfil_usuario.css">
 </head>
 
 <body class="body_negro" id="body">
@@ -30,7 +30,7 @@
                                     <label for="usuario" class="label_dark ml-3 mt-2 mb-2" id="label_light">Su correo</label>
                                 </td>
                                 <td>
-                                    <input id="usuario" type="text" class="form_control_dark ml-3 mt-2 mb-2" name="usuario" required>
+                                    <label for="nick" class="label_dark_shadow ml-3 mt-2 mb-2" id="label_sucorreo_light">niidea@coso.com</label>
                                 </td>
                             </tr>
                             <tr>
@@ -38,7 +38,7 @@
                                     <label for="nick" class="label_dark ml-3 mt-2 mb-2" id="label_apodo_light">Su apodo</label>
                                 </td>
                                 <td>
-                                    <input id="nickform" type="text" class="form_control_dark ml-3 mt-2 mb-2 mr-3" name="usuario" required>
+                                    <label for="nick" class="label_dark_shadow ml-3 mt-2 mb-2" id="label_suapodo_light">zorra</label>
                                 </td>
                             </tr>
 
@@ -49,19 +49,15 @@
                                     <label for="genero" class="label_dark_gender ml-3 mt-2 mb-2" id="label_genero">¿Cómo se identifica?</label>
                                 </td>
                                 <td>
-                                    <select class="form_select_dark ml-3 mt-2 mb-2"  id="select_genero_light">
-                                        <option value="1">Seleccionar</option>
-                                        <option value="2">Hombre</option>
-                                        <option value="3">Mujer</option>
-                                        <option value="4">Otra joda</option>
-                                    </select>
+                                    <label for="genero" class="label_dark_shadow ml-3 mt-2 mb-2" id="label_sugenero">Otra Joda</label>
                                 </td>
                             </tr>
 
                             <tr>
                                 <td>
-                                    <label for="genero" class="label_dark_gender ml-3 mt-2 mb-2" id="label_foto">Adjunte una foto de su jeta</label>
+                                    <label for="genero" class="label_dark_gender ml-3 mt-2 mb-2" id="label_foto">Su foto</label>
                                 </td>
+
                                 <td>
                                 <fieldset>
                                     <img class="foto_perfil ml-3 mt-2 mb-2" id="foto_perfil" src="#" alt="">
@@ -69,37 +65,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <div class="form-group text-center">
-                                    <td>
-                                        <button class="btn btn-primary ml-3 mt-2 mb-2" id="btn_foto">insertar foto</button>
-                                    </td>
-                                </div>
-                                
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="password" class="label_dark_psw ml-3 mt-2 mb-2" id="label_light_psw">Contraseña</label>
-                                </td>
-                                <td>
-                                    <input id="password" type="password" class="form_control_dark ml-3 mt-2 mb-2" name="password" required>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="password" class="label_dark ml-3 mt-2 mb-4" id="labelpswconfirm">Confirmela</label>
-                                </td>
-                                <td>
-                                    <input id="password_confirm" type="password" class="form_control_dark ml-3 mt-2 mb-4" name="password" required>
-                                </td>
-                            </tr>
                         </table>
                         <div class="form-group text-center">
                             <a href="../login/login.html">
-                                <button type="submit" class="btn btn-primary" id="cambiarBtn">registrese</button>
+                                <button type="submit" class="btn btn-primary" id="cambiarBtn">Ok</button>
                             </a>
-                        </div>
-                        <div class="form-group text-center">
-                            <p class="p_dark" id="p_light">ya tiene cuenta? <a href="../login/login.html">inicie sesion</a></p>
                         </div>
                     </div>
                 </div>
@@ -107,6 +77,6 @@
         </div>
     </div>
 </body>
-<script src="register.js"></script>
+<script src="perfil_usuario.js"></script>
 
 </html>
