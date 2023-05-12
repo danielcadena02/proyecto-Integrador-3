@@ -51,6 +51,13 @@
 
     }
 
+    .bg-ruby{
+        background-color: #ff4d4d;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+    }
+
     .label_light {
         color: #343a40;
     }
